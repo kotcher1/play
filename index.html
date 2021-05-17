@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Play</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.css" integrity="sha512-C7hOmCgGzihKXzyPU/z4nv97W0d9bv4ALuuEbSf6hm93myico9qa0hv4dODThvCsqQUmKmLcJmlpRmCaApr83g==" crossorigin="anonymous" />
+    <link href="./style/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="page-title">
+        Play
+      </h1>
+      <div class="navigation-line">
+        <nav class="nav">
+          <input class="nav-check" type="checkbox" id="showmenu"/>
+          <label class="nav-back" for="showmenu"></label>
+          <label class="nav-showmenu" for="showmenu">
+            <svg width="20" height="20">
+              <rect width="100%" height="16.6%" x="0" y="0" rx="2" ry="2" fill="#4A7594"></rect>
+              <rect width="100%" height="16.6%" x="0" y="7.5" rx="2" ry="2" fill="#4A7594"></rect>
+              <rect width="100%" height="16.6%" x="0" y="14.5" rx="2" ry="2" fill="#4A7594"></rect>
+            </svg>
+          </label>
+          <ul class="navigation-list">
+            <a href="#">
+              <li class="navigation-item">
+                Learn
+              </li>
+            </a>
+            <a href="#">
+              <li class="navigation-item">
+                Start
+              </li>
+            </a>
+            <a href="#">
+              <li class="navigation-item">
+                Play
+              </li>
+            </a>
+            <a href="#">
+              <li class="navigation-item">
+                Review
+              </li>
+            </a>
+            <a href="#">
+              <li class="navigation-item">
+                Buy
+              </li>
+            </a>
+            <a href="#">
+              <li class="navigation-item">
+                Config
+              </li>
+            </a>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <div class="user-image">
+            <img width="38" height="38" src="./style/img/user.svg" alt="User Image">
+          </div>
+          <p class="user-name">
+            Ilana
+          </p>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="colored-block">
+
+      </section>
+      <section class="cards-section" id="cardsSection">
+        <a class="card" data-number="1" href="#section">
+          <div class="card-title-block">
+            <p class="card-number">
+              1
+            </p>
+            <p class="card-title" id="title1">
+              Product Design
+            </p>
+          </div>
+          <div class="card-info-block">
+            <img class="image-main" width="93" height="93" src="./style/img/icon1.svg">
+            <img class="image-active" width="93" height="93" src="./style/img/icon1-white.svg">
+            <div class="card-graph-block">
+              <svg width="155" height="155" viewBox="0 0 155 155" class="donut">
+                <circle class="donut-hole" cx="75.5" cy="75.5" r="70.5" fill="#fff"></circle>
+                <circle class="donut-ring" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#DBE3EA" stroke-width="10"></circle>
+                <circle class="donut-segment" id="segment1" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#D699AD" stroke-width="10" stroke-dashoffset="110.685"></circle>
+              </svg>
+              <p class="percent" id="percent1">
+              
+              </p>
+            </div>
+          </div>
+        </a>
+        <a class="card" data-number="2" href="#section">
+          <div class="card-title-block">
+            <p class="card-number">
+              2
+            </p>
+            <p class="card-title" id="title2">
+              Connecting & Collaborating
+            </p>
+          </div>
+          <div class="card-info-block">
+            <img class="image-main" width="93" height="93" src="./style/img/icon2.svg">
+            <img class="image-active" width="93" height="93" src="./style/img/icon2-white.svg">
+            <div class="card-graph-block">
+              <svg width="155" height="155" viewBox="0 0 155 155" class="donut">
+                <circle class="donut-hole" cx="75.5" cy="75.5" r="70.5" fill="#fff"></circle>
+                <circle class="donut-ring" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#DBE3EA" stroke-width="10"></circle>
+                <circle class="donut-segment" id="segment2" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#EEBA2B" stroke-width="10" stroke-dashoffset="110.685"></circle>
+              </svg>
+              <p class="percent" id="percent2">
+                
+              </p>
+            </div>
+          </div>
+        </a>
+        <a class="card" data-number="3" href="#section">
+          <div class="card-title-block">
+            <p class="card-number">
+              3
+            </p>
+            <p class="card-title" id="title3">
+              Being Sustainable
+            </p>
+          </div>
+          <div class="card-info-block">
+            <img class="image-main" width="93" height="93" src="./style/img/icon3.svg">
+            <img class="image-active" width="93" height="93" src="./style/img/icon3-white.svg">
+            <div class="card-graph-block">
+              <svg width="155" height="155" viewBox="0 0 155 155" class="donut">
+                <circle class="donut-hole" cx="75.5" cy="75.5" r="70.5" fill="#fff"></circle>
+                <circle class="donut-ring" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#DBE3EA" stroke-width="10"></circle>
+                <circle class="donut-segment" id="segment3" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#41C6A4" stroke-width="10" stroke-dashoffset="110.685"></circle>
+              </svg>
+              <p class="percent" id="percent3">
+                
+              </p>
+            </div>
+          </div>
+        </a>
+        <a class="card" data-number="4" href="#section">
+          <div class="card-title-block">
+            <p class="card-number">
+              4
+            </p>
+            <p class="card-title" id="title4">
+              Creating Content
+            </p>
+          </div>
+          <div class="card-info-block">
+            <img class="image-main" width="93" height="93" src="./style/img/icon4.svg">
+            <img class="image-active" width="93" height="93" src="./style/img/icon4-white.svg">
+            <div class="card-graph-block">
+              <svg width="155" height="155" viewBox="0 0 155 155" class="donut">
+                <circle class="donut-hole" cx="75.5" cy="75.5" r="70.5" fill="#fff"></circle>
+                <circle class="donut-ring" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#DBE3EA" stroke-width="10"></circle>
+                <circle class="donut-segment" id="segment4" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#9787C4" stroke-width="10" stroke-dashoffset="110.685"></circle>
+              </svg>
+              <p class="percent" id="percent4">
+                
+              </p>
+            </div>
+          </div>
+        </a>
+        <a class="card" data-number="5" href="#section">
+          <div class="card-title-block">
+            <p class="card-number">
+              5
+            </p>
+            <p class="card-title" id="title5">
+              Sign-ups & Sales
+            </p>
+          </div>
+          <div class="card-info-block">
+            <img class="image-main" width="93" height="93" src="./style/img/icon5.svg">
+            <img class="image-active" width="93" height="93" src="./style/img/icon5-white.svg">
+            <div class="card-graph-block">
+              <svg width="155" height="155" viewBox="0 0 155 155" class="donut">
+                <circle class="donut-hole" cx="75.5" cy="75.5" r="70.5" fill="#fff"></circle>
+                <circle class="donut-ring" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#DBE3EA" stroke-width="10"></circle>
+                <circle class="donut-segment" id="segment5" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#54BBCD" stroke-width="10" stroke-dashoffset="110.685"></circle>
+              </svg>
+              <p class="percent" id="percent5">
+              
+              </p>
+            </div>
+          </div>
+        </a>
+        <a class="card" data-number="6" href="#section">
+          <div class="card-title-block">
+            <p class="card-number">
+              6
+            </p>
+            <p class="card-title" id="title6">
+              Using Technology
+            </p>
+          </div>
+          <div class="card-info-block">
+            <img class="image-main" width="93" height="93" src="./style/img/icon6.svg">
+            <img class="image-active" width="93" height="93" src="./style/img/icon6-white.svg">          
+            <div class="card-graph-block">
+              <svg width="155" height="155" viewBox="0 0 155 155" class="donut">
+                <circle class="donut-hole" cx="75.5" cy="75.5" r="70.5" fill="#fff"></circle>
+                <circle class="donut-ring" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#DBE3EA" stroke-width="10"></circle>
+                <circle class="donut-segment" id="segment6" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#98714D" stroke-width="10" stroke-dashoffset="110.685"></circle>
+              </svg>
+              <p class="percent" id="percent6">
+                
+              </p>
+            </div>
+          </div>
+        </a>
+        <a class="card" data-number="7" href="#section">
+          <div class="card-title-block">
+            <p class="card-number">
+              7
+            </p>
+            <p class="card-title" id="title7">
+              Meetups
+            </p>
+          </div>
+          <div class="card-info-block">
+            <img class="image-main" width="93" height="93" src="./style/img/icon7.svg">
+            <img class="image-active" width="93" height="93" src="./style/img/icon7-white.svg">
+            <div class="card-graph-block">
+              <svg width="155" height="155" viewBox="0 0 155 155" class="donut">
+                <circle class="donut-hole" cx="75.5" cy="75.5" r="70.5" fill="#fff"></circle>
+                <circle class="donut-ring" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#DBE3EA" stroke-width="10"></circle>
+                <circle class="donut-segment" id="segment7" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#DD7F8E" stroke-width="10" stroke-dashoffset="110.685"></circle>
+              </svg>
+              <p class="percent" id="percent7">
+                
+              </p>
+            </div>
+          </div>
+        </a>
+        <a class="card"data-number="8" href="#section">
+          <div class="card-title-block">
+            <p class="card-number">
+              8
+            </p>
+            <p class="card-title" id="title8">
+              Social Branding
+            </p>
+          </div>
+          <div class="card-info-block">
+            <img class="image-main" width="93" height="93" src="./style/img/icon8.svg">
+            <img class="image-active" width="93" height="93" src="./style/img/icon8-white.svg">
+            <div class="card-graph-block">
+              <svg width="155" height="155" viewBox="0 0 155 155" class="donut">
+                <circle class="donut-hole" cx="75.5" cy="75.5" r="70.5" fill="#fff"></circle>
+                <circle class="donut-ring" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#DBE3EA" stroke-width="10"></circle>
+                <circle class="donut-segment" id="segment8" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#96BA73" stroke-width="10" stroke-dashoffset="110.685"></circle>
+              </svg>
+              <p class="percent" id="percent8">
+                
+              </p>
+            </div>
+          </div>
+        </a>
+        <a class="card" data-number="9" href="#section">
+          <div class="card-title-block">
+            <p class="card-number">
+              9
+            </p>
+            <p class="card-title" id="title9">
+              Planning Success
+            </p>
+          </div>
+          <div class="card-info-block">
+            <img class="image-main" width="93" height="93" src="./style/img/icon9.svg">
+            <img class="image-active" width="93" height="93" src="./style/img/icon9-white.svg">
+            <div class="card-graph-block">
+              <svg width="155" height="155" viewBox="0 0 155 155" class="donut">
+                <circle class="donut-hole" cx="75.5" cy="75.5" r="70.5" fill="#fff"></circle>
+                <circle class="donut-ring" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#DBE3EA" stroke-width="10"></circle>
+                <circle class="donut-segment" id="segment9" cx="75.5" cy="75.5" r="70.5" fill="transparent" stroke="#B6A39B" stroke-width="10" stroke-dashoffset="110.685"></circle>
+              </svg>
+              <p class="percent" id="percent9">
+                
+              </p>
+            </div>
+          </div>
+        </a>
+        <div class="card add">
+          <p class="card-title-big">
+            Score Card
+          </p>
+          <div class="score-block">
+            <p class="score-title">
+              Total Points Earned To-date
+            </p>
+            <div class="score-line">
+              <div class="score-value">
+              </div>
+              <p class="score-value-number">
+                146
+              </p>
+            </div>
+          </div>
+          <div class="score-block">
+            <p class="score-title">
+              Potential Prospects To-date
+            </p>
+            <div class="score-line">
+              <div class="score-value">
+
+              </div>
+              <p class="score-value-number">
+                34
+              </p>
+            </div>
+          </div>
+          <div class="score-block">
+            <p class="score-title">
+              Content Created To-date
+            </p>
+            <div class="score-line">
+              <div class="score-value">
+
+              </div>
+              <p class="score-value-number">
+                4%
+              </p>
+            </div>
+          </div>
+          <div class="score-block">
+            <p class="score-title">
+              Sales To-date
+            </p>
+            <div class="score-line">
+              <div class="score-value">
+
+              </div>
+              <p class="score-value-number">
+                -
+              </p>
+            </div>
+          </div>
+          <div class="score-block">
+            <p class="score-title">
+              Available Cash on hand
+            </p>
+            <div class="score-line">
+              <div class="score-value">
+
+              </div>
+              <p class="score-value-number">
+                5 475
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="data-section" id="section">
+        <div class="data-title-line">
+          <div class="data-number" id="sectionNumber">
+            <p>
+              4.
+            </p>
+          </div>
+          <p class="data-title" id="blockTitle">
+            Creating Content
+          </p>
+        </div>
+        <div class="data-block">
+          <div class="data-block-first-column">
+            <div class="main-table">
+              <div class="table-line main-line">
+                <div class="table-main-column">
+                  Description (Phase)
+                </div>
+                <div class="table-status-column">
+                  Status&nbsp
+                  <span>(8%)</span>
+                </div>
+                <div class="table-action-column">
+                  Action
+                </div>
+                <div class="table-hours-column">
+                  Hours&nbsp
+                  <span>(20%)</span>
+                </div>
+                <div class="table-cost-column">
+                  Cost&nbsp
+                  <span>(15%)</span>
+                </div>
+              </div>
+              <div class="table-line">
+                <div class="table-main-column">
+                  Create a Value Added Giveaway 
+                </div>
+                <div class="table-status-column">
+                  <img width="15" height="18" src="./style/img/mini-icon1.svg" alt="Icon">
+                </div>
+                <div class="table-action-column">
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon4-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon5.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon6-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    25%
+                  </div>
+                </div>
+                <div class="table-hours-column">
+                  0
+                </div>
+                <div class="table-cost-column">
+                  400,00 
+                </div>
+              </div>
+              <div class="table-line">
+                <div class="table-main-column">
+                  Write an Email Newsletter & Send
+                </div>
+                <div class="table-status-column">
+                  <img width="15" height="18" src="./style/img/mini-icon1.svg" alt="Icon">
+                </div>
+                <div class="table-action-column">
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon4.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon5-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon6-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    15%
+                  </div>
+                </div>
+                <div class="table-hours-column">
+                  6
+                </div>
+                <div class="table-cost-column">
+                  -
+                </div>
+              </div>
+              <div class="table-line">
+                <div class="table-main-column">
+                  Record a Video live for FB 
+                </div>
+                <div class="table-status-column">
+                  <img width="12" height="15" src="./style/img/mini-icon2.svg" alt="Icon">
+                </div>
+                <div class="table-action-column">
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon4-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon5-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon6-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    50%
+                  </div>
+                </div>
+                <div class="table-hours-column">
+                  0
+                </div>
+                <div class="table-cost-column">
+                  -
+                </div>
+              </div>
+              <div class="table-line">
+                <div class="table-main-column">
+                  Write  an article for magazines/newspaper
+                </div>
+                <div class="table-status-column">
+                  <img width="12" height="15" src="./style/img/mini-icon2.svg" alt="Icon">
+                </div>
+                <div class="table-action-column">
+                  <div>
+
+                  </div>
+                  <div>
+                    
+                  </div>
+                  <div>
+                    
+                  </div>
+                  <div>
+                    <img width="14" height="12" src="./style/img/mini-icon7.svg" alt="Icon">
+                  </div>
+                </div>
+                <div class="table-hours-column">
+                  0
+                </div>
+                <div class="table-cost-column">
+                  -
+                </div>
+              </div>
+              <div class="table-line">
+                <div class="table-main-column">
+                  Write a Blog post for your website 
+                </div>
+                <div class="table-status-column">
+                  <img width="12" height="15" src="./style/img/mini-icon3.svg" alt="Icon">
+                </div>
+                <div class="table-action-column">
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon4-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon5.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon6-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    70%
+                  </div>
+                </div>
+                <div class="table-hours-column">
+                  0
+                </div>
+                <div class="table-cost-column">
+                  400,00
+                </div>
+              </div>
+              <div class="table-line">
+                <div class="table-main-column">
+                  Record YouTube/ IGTV video 
+                </div>
+                <div class="table-status-column">
+                  <img width="12" height="15" src="./style/img/mini-icon2.svg" alt="Icon">
+                </div>
+                <div class="table-action-column">
+                  <div>
+
+                  </div>
+                  <div>
+                    
+                  </div>
+                  <div>
+                    
+                  </div>
+                  <div>
+                    <img width="14" height="12" src="./style/img/mini-icon7.svg" alt="Icon">
+                  </div>
+                </div>
+                <div class="table-hours-column">
+                  0
+                </div>
+                <div class="table-cost-column">
+                  -
+                </div>
+              </div>
+              <div class="table-line">
+                <div class="table-main-column">
+                  Record an episode of your own podcast 
+                </div>
+                <div class="table-status-column">
+                  <img width="12" height="15" src="./style/img/mini-icon2.svg" alt="Icon">
+                </div>
+                <div class="table-action-column">
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon4-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon5.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon6-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    10%
+                  </div>
+                </div>
+                <div class="table-hours-column">
+                  0
+                </div>
+                <div class="table-cost-column">
+                  400,00
+                </div>
+              </div>
+              <div class="table-line">
+                <div class="table-main-column">
+                  Write Sales Copy 
+                </div>
+                <div class="table-status-column">
+                  <img width="15" height="18" src="./style/img/mini-icon1.svg" alt="Icon">
+                </div>
+                <div class="table-action-column">
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon4.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon5-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon6-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    20%
+                  </div>
+                </div>
+                <div class="table-hours-column">
+                  6
+                </div>
+                <div class="table-cost-column">
+                  -
+                </div>
+              </div>
+              <div class="table-line">
+                <div class="table-main-column">
+                  Create a Presentation 
+                </div>
+                <div class="table-status-column">
+                  <img width="15" height="18" src="./style/img/mini-icon1.svg" alt="Icon">
+                </div>
+                <div class="table-action-column">
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon4.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon5-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon6-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    15%
+                  </div>
+                </div>
+                <div class="table-hours-column">
+                  6
+                </div>
+                <div class="table-cost-column">
+                  -
+                </div>
+              </div>
+              <div class="table-line">
+                <div class="table-main-column">
+                  Create an eBook 
+                </div>
+                <div class="table-status-column">
+                  <img width="12" height="15" src="./style/img/mini-icon2.svg" alt="Icon">
+                </div>
+                <div class="table-action-column">
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon4-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon5-2.svg" alt="Icon">
+                  </div>
+                  <div>
+                    <img width="23" height="24" src="./style/img/mini-icon6.svg" alt="Icon">
+                  </div>
+                  <div>
+                    5%
+                  </div>
+                </div>
+                <div class="table-hours-column">
+                  20
+                </div>
+                <div class="table-cost-column">
+                  1000,00
+                </div>
+              </div>
+              <div class="table-line total-line">
+                <div class="table-main-column">
+                  Total
+                </div>
+                <div class="table-status-column">
+
+                </div>
+                <div class="table-action-column">
+                  
+                </div>
+                <div class="table-hours-column">
+                  38
+                </div>
+                <div class="table-cost-column">
+                  2200,00
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="data-block-second-column">
+            <div class="second-column-section">
+              <div class="second-column-title-line">
+                <img width="28" height="28" src="./style/img/icon10.svg" alt="Icon">
+                <p class="second-column-title">
+                  Filter
+                </p>
+              </div>
+              <p class="second-section-subtitle">
+                Status
+              </p>
+              <div class="input-box">
+                <div class="input-group">
+                  <input type="checkbox" id="checkbox1" checked>
+                  <label for="checkbox1">
+                    
+                  </label>
+                  <p>
+                    Quality
+                  </p>
+                </div>
+                <div class="input-group">
+                  <input type="checkbox" id="checkbox2" checked>
+                  <label for="checkbox2">
+                    
+                  </label>
+                  <p>
+                    Locked
+                  </p>
+                </div>
+                <div class="input-group">
+                  <input type="checkbox" id="checkbox3" checked>
+                  <label for="checkbox3">
+                    
+                  </label>
+                  <p>
+                    Open
+                  </p>
+                </div>
+                <div class="input-group">
+                  <input type="checkbox" id="checkbox4">
+                  <label for="checkbox4">
+                    
+                  </label>
+                  <p>
+                    Completed
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="second-column-section">
+              <div class="second-column-title-line">
+                <img width="28" height="28" src="./style/img/icon11.svg" alt="Icon">
+                <p class="second-column-title">
+                  Status
+                </p>
+              </div>
+              <p class="second-section-subtitle">
+                January
+              </p>
+              <div class="statistic-block">
+                <div class="statistic-line">
+                  <img width="24" height="27" src="./style/img/icon12.svg" alt="Icon">
+                  <p class="statistic-title">
+                    Hours:
+                  </p>
+                  <div class="score-line">
+                    <div class="score-value v1">
+      
+                    </div>
+                  </div>
+                </div>
+                <div class="statistic-sub-line">
+                  <span>110</span>h used out of <span>160</span> available (<span>68</span>%)
+                </div>
+              </div>
+              <div class="statistic-block">
+                <div class="statistic-line">
+                  <img width="24" height="27" src="./style/img/icon13.svg" alt="Icon">
+                  <p class="statistic-title">
+                    Costs:
+                  </p>
+                  <div class="score-line">
+                    <div class="score-value v2">
+      
+                    </div>
+                  </div>
+                </div>
+                <div class="statistic-sub-line">
+                  <span>$1125</span> spent, just <span>$525</span> remaining (<span>5</span>%)
+                </div>
+              </div>
+              <div class="button-block">
+                <div class="activity-button">
+                  Activity Card
+                </div>
+                <div class="end-button">
+                  Month End
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="chart-section">
+        <div class="chart-block">
+          <div class="switches-block">
+            <div class="switch active" id="switch1" data-number="1">
+              <span>
+                Visibility - New Prospects
+              </span>
+            </div>
+            <div class="switch" id="switch2" data-number="2">
+              <span>
+                Key Indicators
+              </span>
+            </div>
+            <div class="switch" id="switch3" data-number="3">
+              <span>
+                Financial Performance
+              </span>
+            </div>
+          </div>
+          <div class="chart-box">
+            <div class="chart-container">
+              <canvas class="canvas active" id="myChart1" height="375" width="1166"></canvas>
+              <canvas class="canvas" id="myChart2" height="375" width="1166"></canvas>
+              <canvas class="canvas" id="myChart3" height="375" width="1166"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js" integrity="sha512-SuxO9djzjML6b9w9/I07IWnLnQhgyYVSpHZx0JV97kGBfTIsUYlWflyuW4ypnvhBrslz1yJ3R+S14fdCWmSmSA==" crossorigin="anonymous"></script>
+    
+    <script src="./style/chart.js">
+    </script>
+    <script src="./style/script.js"> 
+    </script>
+  </body>
+</html>
